@@ -133,7 +133,7 @@ void show(uint8_t a) //wyswietlanie liczby
 	PORTD = cyfra[prawa];
 }
 
-
+//===========================================================================================
 int main()
 {
 	DDRB = 0b11111111;
